@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+}
+.text-home{
+    display: flex;
+    flex-direction: column;
+    max-width: 368px;
+    align-items: flex-start;
+    text-align: left;
+    justify-content: center;
+    gap: 1rem;
+}

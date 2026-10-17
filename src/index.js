@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import {BrowserRouter, Routes, Route} from "react-router";
-import {Cadastro} from "./components/cadastro/cadastro";
-import {Login} from "./components/login/login";
+import {Cadastro} from "./pages/cadastro/cadastro";
+import {Login} from "./pages/login/login";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

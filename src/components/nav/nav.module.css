@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1.4rem 4rem;
+    background-color: black;
+}
+.nav-btns{
+    display: flex;
+    gap: 1.3rem;
+}
+.nav-btns a{
+    color: white;
+    font-size: 18px;
+}
+.nav-btns a:link{
+    text-decoration: none;
+
+}
+.secondary-btn{
+    width: 120px;
+    height: 25px;
+    background-color: #565656;
+    border: none;
+    border-radius: 11px;
+    text-align: center;
+}
