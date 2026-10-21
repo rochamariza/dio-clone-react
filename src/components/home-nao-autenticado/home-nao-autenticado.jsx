@@ -12,7 +12,11 @@ export const HomeNaoAutenticado = () => {
                         agora!
                     </h1>
                     <p>Domine as tecnologias utilizadas pelas empresas mais inovadoras do mundo e encare seu novo desafio profissional, evoluindo em comunidade com os melhores experts.</p>
-                        <button className={styles["home-btn"]}>Começar Agora</button>
+                    <a href="/login">
+                        <button className={styles["home-btn"]}>
+                            <div>Começar Agora</div>
+                        </button>
+                    </a>
                 </div>
                 <img src={home_img}/>
             </div>

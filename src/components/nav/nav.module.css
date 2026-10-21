@@ -25,3 +25,11 @@
     border-radius: 11px;
     text-align: center;
 }
+@media (max-width: 400px){
+    .container{
+        justify-content: center;
+    }
+    .container img{
+        display: none;
+    }
+}
