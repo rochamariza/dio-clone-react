@@ -7,7 +7,9 @@ export const Nav = () => {
     return (
         <>
             {autenticado ? (<>
-                    <div className={styles["container"]}></div>
+                    <div className={styles["container"]}>
+                        <img src={logo} className={styles["logo"]}/>
+                    </div>
                 </>): (
                         <>
                             <div className={styles["container"]}>
