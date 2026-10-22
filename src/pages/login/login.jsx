@@ -14,10 +14,10 @@ export const Login = () =>{
                 <div className={styles["login-form"]}>
                     <h1>Faça seu cadastro</h1>
                     <h3>Faça seu login e make the change._</h3>
-                    <form>
+                    <form action="/">
                         <Input src={email} ph="E-mail" type="text"/>
                         <Input src={senha} ph="Senha" type="password"/>
-                        <FormBtn />
+                        <FormBtn text="Entrar"/>
                     </form>
                     <div className={styles["extra-info"]}>
                         <a className={styles["esqueci"]} href="/esqueci-a-senha">Esqueci minha senha</a>

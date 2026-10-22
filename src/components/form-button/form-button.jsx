@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from './form-button.module.css'
 
-export const FormBtn = () => {
+export const FormBtn = ({text}) => {
   return (
-    <button className={styles["form-btn"]}>
-                            <div>Entrar</div>
+    <button type="submit" className={styles["form-btn"]}>
+                            <div>{text}</div>
                         </button>
   )
 }
