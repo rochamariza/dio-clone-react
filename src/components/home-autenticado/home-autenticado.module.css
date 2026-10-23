@@ -2,8 +2,9 @@
     margin: 3rem;
     display: grid;
     grid-template-columns: repeat(2, auto);
-    justify-content: flex-start;
+    justify-content: center;
     gap: 3rem;
+    align-self: start;
 }
 .feed h1, .top h1{
     text-align: left;
